@@ -1,0 +1,50 @@
+@media print {
+	.no-print,
+	.custom-bg,
+	.navbar .btn,
+	.addresshead,
+	.btn.btn-light,
+	.btn.add
+	
+	{ 
+		display: none;
+	}
+
+	
+	.table.table {
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+	
+	.table th, .table td {
+		padding: 10px;
+		text-align: left;
+	}
+
+	
+	
+	.table th:nth-child(2),
+	.table td:nth-child(2),
+	.table th:nth-child(3),
+	.table td:nth-child(3),
+	.table th:nth-child(4),
+	.table td:nth-child(4)
+ 	{
+		border: 1px solid black;
+	}
+
+	.table th:nth-child(1),
+	.table td:nth-child(1),
+	.table th:nth-child(5),
+	.table td:nth-child(5),
+	.btn {
+		display: none;
+	}
+
+	
+	body {
+		margin: 1cm;
+		padding: 1cm;
+	}
+}

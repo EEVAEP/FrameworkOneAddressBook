@@ -1,0 +1,148 @@
+* {
+    	margin: 0;
+   	padding: 0;
+    	box-sizing: border-box;
+    	font-family: Arial, sans-serif;
+}
+
+body {
+    	background-color: #e1e7f0;
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	height: 100vh;
+}
+
+
+.navbar {
+    	background-color: #33597d;
+    	width: 100%;
+    	padding: 10px 20px;
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+}
+
+.navbar-left {
+    	display: flex;
+    	align-items: center;
+}
+
+.nav-icon {
+    	width: 30px;
+    	height: 30px;
+    	margin-right: 10px;
+}
+
+.navbar-left span {
+    	color: white;
+    	font-size: 18px;
+    	font-weight: bold;
+}
+
+.navbar-right {
+    	display: flex;
+    	gap: 20px;
+}
+
+.nav-link {
+    	color: white;
+    	text-decoration: none;
+    	font-size: 16px;
+    	font-weight: bold;
+    	display: flex;
+    	align-items: center;
+}
+
+.nav-link:hover {
+    	text-decoration: underline;
+}
+
+
+.container {
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	width: 100%;
+    	flex: 1;
+}
+
+.signup-box {
+    	display: flex;
+    	background-color: #fff;
+    	border-radius: 8px;
+    	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    	overflow: hidden;
+    	width: 600px;
+    	margin-top: 30px;
+}
+
+.icon-side {
+    	background-color: #132b42;
+    	padding: 50px;
+    	display: flex;
+    	justify-content: center;
+    	align-items: center;
+}
+
+.icon-side img {
+    	width: 100px;
+    	height: 100px;
+}
+
+.form-side {
+    	padding: 40px;
+    	flex: 1;
+}
+
+.form-side h2 {
+    	text-align: center;
+    	color: #132b42;
+    	margin-bottom: 20px;
+}
+
+.input-box {
+    	margin-bottom: 10px;
+}
+
+.input-box label {
+    	display: block;
+    	margin-bottom: 5px;
+    	color: #333;
+}
+
+.input-box input {
+    	width: 100%;
+    	padding: 10px;
+    	border: 1px solid #ccc;
+    	border-radius: 4px;
+    	font-size: 12px;
+}
+
+.signup-btn {
+    	width: 100%;
+    	padding: 10px;
+    	background-color: #132b42;
+    	color: #fff;
+    	border: none;
+    	border-radius: 4px;
+    	font-size: 16px;
+    	cursor: pointer;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+.success {
+    color: green;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    display: block;
+}

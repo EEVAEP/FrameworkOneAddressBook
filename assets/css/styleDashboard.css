@@ -1,0 +1,41 @@
+.custom-bg {
+    background-color: #337ab7;
+}
+.custom-background {
+	background-color: #c1d9f5;
+}
+.error {
+    	color: red;
+    	font-size: 16px;
+    	margin-top: 5px;
+}
+
+.modal-lg {
+	max-width: 800px; 
+}
+
+.modal-header {
+    	background-color: #007bff; 
+    	color: white;
+}
+
+.modal-body .row {
+    	margin-bottom: 10px;
+}
+
+.modal-body .label {
+    	font-weight: bold;
+    	color: #343a40; 
+}
+
+.modal-body .value {
+    	color: #007bff; 
+}
+
+.btn-close-white {
+    	filter: brightness(0) invert(1); 
+}
+
+.example {
+	background-color:grey;
+}
