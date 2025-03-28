@@ -10,7 +10,6 @@ component output="false" {
         action = "action",
         defaultSection = "views",
         defaultItem = "login",
-        password = "secret",
         reloadApplicationOnEveryRequest = 1
     };
 
